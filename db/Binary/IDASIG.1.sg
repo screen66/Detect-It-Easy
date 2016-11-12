@@ -5,7 +5,7 @@ init("format","IDA signature file");
 
 function detect(bShowType,bShowVersion,bShowOptions)
 {
-    if(Binary.compare("49444153474e05"))
+    if(Binary.compare("49444153474e05.."))
     {
         
         bDetected=1;
